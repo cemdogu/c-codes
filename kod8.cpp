@@ -1,4 +1,5 @@
 #include<iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -20,6 +21,12 @@ void sayHello()
     return;
 }
 
+double area(int r)
+{
+       cout << "area" <<endl;
+       return M_PI*r*r;
+       }
+
 int main()
 {
     int x,y,sum;
@@ -36,6 +43,8 @@ int main()
     sum = calcBorders(x, y);
     
     cout << "sum :" << sum << endl;
+    
+    cout << "area : " << area(10) << endl;
     
     system("pause");
     return 0;
