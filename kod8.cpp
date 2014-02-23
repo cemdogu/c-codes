@@ -25,7 +25,7 @@ double area(int r)
 {
        cout << "area" <<endl;
        return M_PI*r*r;
-       }
+}
 
 int main()
 {
