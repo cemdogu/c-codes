@@ -9,6 +9,7 @@ int calcSum(int x, int y)
 
 int calcBorders(int x, int y)
 {
+    cout << "test" << endl;
     return 2*(x + y);
 }   
 
