@@ -13,9 +13,18 @@ int calcBorders(int x, int y)
     return 2*(x + y);
 }   
 
+//geri donus degeri olmayan fonksiyon
+void sayHello()
+{
+    cout<< "Hello World:" <<endl<<endl;
+    return;
+}
+
 int main()
 {
     int x,y,sum;
+    
+    sayHello();
     
     cout<<"Enter first integer:"<<endl;
     cin>>x;
