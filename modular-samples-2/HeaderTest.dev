@@ -40,9 +40,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=math-utils-1.cpp
+FileName=screen-util.h
 CompileCpp=1
-Folder=HeaderTest
+Folder=
 Compile=1
 Link=1
 Priority=1000
@@ -50,9 +50,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=math-utils.h
+FileName=screen-util.cpp
 CompileCpp=1
-Folder=HeaderTest
+Folder=
 Compile=1
 Link=1
 Priority=1000
